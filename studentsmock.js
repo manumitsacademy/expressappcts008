@@ -1,0 +1,31 @@
+const students = [
+    {
+        firstname:'praveen',
+        lastname:'gubbala',
+        age:'37',
+        place:'hyd',
+        phonenumber:'1212'
+    },
+    {
+        firstname:'rahul',
+        lastname:'reddy',
+        age:'23',
+        place:'sec',
+        phonenumber:'2323'
+    },
+    {
+        firstname:'priya',
+        lastname:'rao',
+        age:'12',
+        place:'bengaluru',
+        phonenumber:'4545'
+    },
+    {
+        firstname:'kiran',
+        lastname:'sharma',
+        age:'33',
+        place:'mumbai',
+        phonenumber:'8989'
+    }
+]
+module.exports=students;

@@ -1,0 +1,29 @@
+{
+  "name": "expressapp",
+  "version": "1.0.0",
+  "description": "learrning webapp dev using express",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manumitsacademy/expressappcts008.git"
+  },
+  "keywords": [
+    "express",
+    "hbs",
+    "cors",
+    "node"
+  ],
+  "author": "praveen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manumitsacademy/expressappcts008/issues"
+  },
+  "homepage": "https://github.com/manumitsacademy/expressappcts008#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.0"
+  }
+}
