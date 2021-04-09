@@ -1,0 +1,21 @@
+<h1>Students master page</h1>
+<table border="2" cellpadding="10" cellspacing="0">
+    <thead>
+        <td>Firstname</td>
+        <td>Lastname</td>
+        <td>Age</td>
+        <td>Location</td>
+        <td>Phone Number</td>
+    </thead>
+    <tbody>
+        {{#each allStudents}}
+        <tr>
+            <td>{{this.firstname}}</td>
+            <td>{{this.lastname}}</td>
+            <td>{{this.age}}</td>
+            <td>{{this.place}}</td>
+            <td>{{this.phonenumber}}</td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>

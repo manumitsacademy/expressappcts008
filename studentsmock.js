@@ -26,6 +26,20 @@ const students = [
         age:'33',
         place:'mumbai',
         phonenumber:'8989'
+    },
+    {
+        firstname:'suma',
+        lastname:'kanakala',
+        age:'32',
+        place:'hyd',
+        phonenumber:'4455'
+    },
+    {
+        firstname:'chinna',
+        lastname:'rao',
+        age:'44',
+        place:'pune',
+        phonenumber:'7788'
     }
 ]
 module.exports=students;
